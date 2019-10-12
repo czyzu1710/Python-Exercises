@@ -1,3 +1,6 @@
 #!/usr/bin/python
 #-*- coding: utf-8
-input("Type in word")
+
+word = "=".join(input("Type in word:\t"))
+
+print ("Let me spell that for You:\t ", word)
