@@ -1,3 +1,20 @@
+3_1==========================================================================
+1) Przypisania powinny być rozbite na 2 linijki, średniki zbędne.
+2) Nawias w wyrażeniu if.
+3) Średiniki przy przypisywaniu wartości 
+=============================================================================
+1) Instrukcja powinna zostać rozbita na kilka linijek. Coraz bardziej
+ zagnieżdone instrukcje muszą zostać 'wcięte'.
+=============================================================================
+1)Brakuje ':' po instrukcjach if i else. Nieodpowiednie ułożnie instrukcji.
+=============================================================================
 
-
+3_2==========================================================================
+1) Przypisanie nie ma sensu. Operacja sort działa na żywej liście i nie zwraca 
+jej.
+2) Wartość 3 nie ma gdzie zostać przypisana.
+3) Powstanie krotka, dlatego zmiana wartości będzie niemożliwa.
+4) Wychodzimy poza rozmiar tablicy.
+5) Dla klasy string nie ma funkcji append. Co więcej stringi są niemutowalne
+6) Brakuje argumentów dla funkcji pow. 
 
