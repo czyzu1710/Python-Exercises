@@ -10,5 +10,5 @@ def factorial(n):
 
 
 print(factorial(42))
-
+print(factorial(6))
 
