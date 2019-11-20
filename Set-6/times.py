@@ -1,17 +1,18 @@
 #!usr/bin/python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
-class Time: 
-    def __init__(self, seconds = 0):
-        self.s = int (seconds)
+
+class Time:
+    def __init__(self, seconds=0):
+        self.s = int(seconds)
 
     def __str__(self):
         h = int(self.s / 3600)
-        sec  = self.s - h * 3600
+        sec = self.s - h * 3600
         m = int(sec/60)
         sec = int(sec - m * 60)
-        return "{0:02d}:{1:02d}:{2:02d}".format(h,m,sec)
-    
+        return "{0:02d}:{1:02d}:{2:02d}".format(h, m, sec)
+
     def __repr__(self):
         return "Time({0})".format(self.s)
 
@@ -38,4 +39,3 @@ class Time:
 
     def __int__(self):
         return self.s
-
