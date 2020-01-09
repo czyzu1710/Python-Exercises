@@ -3,6 +3,7 @@
 import unittest
 from points import *
 
+
 class TestPoint(unittest.TestCase):
 
     def setUp(self):
@@ -53,6 +54,8 @@ class TestPoint(unittest.TestCase):
         self.assertEqual(self.zero.length(), 0)
         self.assertEqual(self.oneTwo.length(), 5**(1/2))
         self.assertEqual(Point(2**(1/2),2**(1/2)).length(), 2)
+
+
 if __name__ == "__main__":
     unittest.main()
 
